@@ -53,3 +53,5 @@ Basta abrir o `index.html` no navegador (funciona via `file://`), ou subir um se
 ```bash
 npx serve .
 ```
+
+![Top Languages](https://readme-stats-github.pages.dev/api/top-langs?username=orlandocastrojr&theme=shadow)
