@@ -23,6 +23,14 @@
                     <img height="70px" src="./src/assets/logo.png" alt="iconeLogo">
                 </section>
 
+                <section class="i-card__search">
+                    <form id="form-busca" class="t-form__busca">
+                        <input type="text" id="input-busca" class="t-input__busca" placeholder="Buscar Digimon..." autocomplete="off">
+                        <button type="submit" class="t-button__busca">Buscar</button>
+                    </form>
+                    <p id="t-erro__busca" class="t-erro__busca"></p>
+                </section>
+
                 <section class="i-card__digimon">
                     <!-- Acredito que aqui vem as imagens dos digimons -->
                     <!--Só retirei o link da imagem fixa-->
@@ -39,24 +47,18 @@
                 <section class="container-info">
 
                     <div class="a-info__column">
-                        <p>HP</p>
-                        <div class="b-nv-ex__progressHp">
-                            <div class="b-nv-in__progress-hp"></div>
-                        </div>
+                        <p>Nível</p>
+                        <p class="v-info__value" id="t-nivel__bt">—</p>
                     </div>
 
                     <div class="a-info__column">
-                        <p>ATK</p>
-                        <div class="b-nv-ex__progressAtk">
-                            <div class="b-nv-in__progress-atk"></div>
-                        </div>
+                        <p>Atributo</p>
+                        <p class="v-info__value" id="t-atributo__bt">—</p>
                     </div>
 
                     <div class="a-info__column">
-                        <p>DEF</p>
-                        <div class="b-nv-ex__progressDef">
-                            <div class="b-nv-in__progress-def"></div>
-                        </div>
+                        <p>Tipo</p>
+                        <p class="v-info__value" id="t-tipo__bt">—</p>
                     </div>
                 </section>
             </div>
